@@ -1,8 +1,8 @@
-# CollegeVol
+# collegeVol
 
 （使用方法见底部）
 
-大学生志愿者小程序
+#### 【大学生志愿者小程序】
 
 |  小程序模块    |  文件路径    |
 | ---- | ---- |
@@ -10,11 +10,15 @@
 |  小程序前端    |  /frontend    |
 |  web前端    |  /vol-web    |
 
-项目包含有完整的志愿者在小程序端报名活动，管理员在web端审核通过活动，志愿者通过二维码扫码报名签到的功能。
+项目包含有完整的志愿者在小程序端报名活动，管理员在web端审核通过活动，志愿者通过二维码扫码报名签到的功能。图片建议放在   /home/cov/images/  路径下，
+
+二维码图片路径是/home/cov/images/qrcode/，
+
+这样通过  http://{公网IP}:8888/images/ xxx.jpg 就可以访问到图片
 
 
 
-涉及技术
+#### 【涉及技术】
 
 前端    iview + vue + vuex + axios
 
@@ -22,7 +26,7 @@
 
 
 
-附件
+#### 【附件】
 
 |  小程序文件模块    |  文件路径    |
 | ---- | ---- |
@@ -33,7 +37,7 @@
 
 
 
-参考文档
+#### 【参考文档】
 
 ivew  http://v1.iviewui.com/docs/guide/install
 
@@ -41,29 +45,31 @@ ivew  http://v1.iviewui.com/docs/guide/install
 
 
 
-使用方法
+#### 【使用方法】
 
-1、启动后端
+##### 1、启动后端
 
-（1）安装后端环境
+##### 【安装后端环境】
 
 后端需要java8，mysql环境，使用maven管理后端项目
 
-（2）导入数据库
+##### 【导入数据库】
 
 进入本地数据库mysql，执行covdb.sql，导入数据库，
 
 数据库名为covdb
 
-（3）启动后端项目
+##### 【启动后端项目】
 
 用idea打开backend，open file as itellij idea project，maven加载好后，启动项目，后端占用8888端口；
 
 
 
-2、启动前端
+##### 2、启动前端
 
-（1）web端进入vol-web，使用如下指令启动前端
+##### 【启动web后台】
+
+web端进入vol-web，使用如下指令启动前端
 
 需要node.js
 
@@ -72,7 +78,9 @@ npm install
 npm run serve 
 ```
 
-（2）启动小程序前端，将frontend文件夹导入微信小程序开发者工具
+##### 【启动小程序前端】
+
+将frontend文件夹导入微信小程序开发者工具
 
 
 
