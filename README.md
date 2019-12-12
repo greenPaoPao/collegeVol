@@ -29,6 +29,7 @@
 | 1、数据库设计表     |  /志愿者数据库设计v1.0.doc    |
 | 2、小程序Rest接口详细说明 | /志愿者小程序后端接口说明.md   |
 |  3、小程序开发文档---开发环境规约和说明    | /志愿者小程序开发文档.docx     |
+| 4、数据库脚本 | /covdb.sql |
 
 
 
@@ -44,9 +45,17 @@ ivew  http://v1.iviewui.com/docs/guide/install
 
 1、启动后端
 
+（1）安装后端环境
+
 后端需要java8，mysql环境，使用maven管理后端项目
 
-进入本地数据库mysql，执行covdb.sql，导入数据库
+（2）导入数据库
+
+进入本地数据库mysql，执行covdb.sql，导入数据库，
+
+数据库名为covdb
+
+（3）启动后端项目
 
 用idea打开backend，open file as itellij idea project，maven加载好后，启动项目，后端占用8888端口；
 
