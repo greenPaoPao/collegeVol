@@ -22,7 +22,7 @@ public class CodeGenerator {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setAuthor("fhx");
+        gc.setAuthor("author");
         gc.setFileOverride(true);
         gc.setOpen(false);
         gc.setBaseColumnList(true);

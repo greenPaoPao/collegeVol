@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * 活动标签表  服务实现类
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-09-05
  */
 @Service

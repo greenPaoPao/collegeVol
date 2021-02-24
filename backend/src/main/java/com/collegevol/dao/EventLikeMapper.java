@@ -14,7 +14,7 @@ import java.util.List;
  *  Mapper 接口
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-09-05
  */
 public interface EventLikeMapper extends BaseMapper<EventLike> {

@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * 用户信息表  Mapper 接口
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-07-20
  */
 public interface UserInfoMapper extends BaseMapper<UserInfo> {

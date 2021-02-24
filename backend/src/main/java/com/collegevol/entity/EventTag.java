@@ -12,7 +12,6 @@ import lombok.experimental.Accessors;
  * 活动标签表 
  * </p>
  *
- * @author fhx
  * @since 2019-07-20
  */
 

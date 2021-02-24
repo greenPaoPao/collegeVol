@@ -17,7 +17,7 @@ import org.springframework.format.annotation.DateTimeFormat;
  * 志愿者活动表 
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-07-20
  */
 @Data

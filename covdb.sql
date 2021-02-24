@@ -1,7 +1,7 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 王敏阿里云
+ Source Server         : 阿里云
  Source Server Type    : MySQL
  Source Server Version : 50644
  Source Host           : 47.102.128.138:3306
@@ -384,15 +384,15 @@ CREATE TABLE `user_info`  (
 -- ----------------------------
 INSERT INTO `user_info` VALUES (1, '数嵌161', '计算机工程学院', 'http://47.102.128.138:8888/images/ceshi/avatar1.jpg', '测试1', 189, 'E10ADC3949BA59ABBE56E057F20F883E', '202160501', '2019-07-20 10:20:28', 1, '15189801203');
 INSERT INTO `user_info` VALUES (3, '班级', '学院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '张三', 104, '202CB962AC59075B964B07152D234B70', '202160521', '2019-07-20 13:16:57', 1, '123456');
-INSERT INTO `user_info` VALUES (4, '数嵌161', '计算机工程学院', 'http://47.102.128.138:8888/images/ceshi/avatar3.jpg', '王敏', 106, 'E10ADC3949BA59ABBE56E057F20F883E', '202160511', '2019-07-21 21:11:01', 0, '123456');
-INSERT INTO `user_info` VALUES (5, '数字媒体技术嵌入式161', '计算机', 'http://47.102.128.138:8888/images/ceshi/avatar4.jpg', '尚思', 98, 'E10ADC3949BA59ABBE56E057F20F883E', '202160509', '2019-07-21 21:25:15', 0, '123456');
+INSERT INTO `user_info` VALUES (4, '数嵌161', '计算机工程学院', 'http://47.102.128.138:8888/images/ceshi/avatar3.jpg', '敏', 106, 'E10ADC3949BA59ABBE56E057F20F883E', '202160511', '2019-07-21 21:11:01', 0, '123456');
+INSERT INTO `user_info` VALUES (5, '数字媒体技术嵌入式161', '计算机', 'http://47.102.128.138:8888/images/ceshi/avatar4.jpg', '思', 98, 'E10ADC3949BA59ABBE56E057F20F883E', '202160509', '2019-07-21 21:25:15', 0, '123456');
 INSERT INTO `user_info` VALUES (6, '数嵌161', '南京工程学院', 'http://47.102.128.138:8888/images/ceshi/avatar5.jpg', '末流本一工程哥', 115, 'E10ADC3949BA59ABBE56E057F20F883E', '202160507', '2019-07-28 01:08:18', 1, '123456');
 INSERT INTO `user_info` VALUES (7, '数嵌161', '南京工程学院', 'http://47.102.128.138:8888/images/ceshi/avatar1.jpg', '蔡徐坤', 101, 'E10ADC3949BA59ABBE56E057F20F883E', '202160508', '2019-07-28 01:08:35', 1, '123456');
 INSERT INTO `user_info` VALUES (8, '数嵌161', '南京工程学院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '海螺', 102, 'E10ADC3949BA59ABBE56E057F20F883E', '202160520', '2019-07-28 01:09:27', 1, '123456');
-INSERT INTO `user_info` VALUES (11, '数字161', '计算机院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '海旭', 100, 'E10ADC3949BA59ABBE56E057F20F883E', '202160522', '2019-09-07 17:07:15', 1, '123456');
-INSERT INTO `user_info` VALUES (12, '计算机161', '计算机院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '贺光银', 102, 'E10ADC3949BA59ABBE56E057F20F883E', '202160523', '2019-09-07 17:16:45', 1, '123456');
+INSERT INTO `user_info` VALUES (11, '数字161', '计算机院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '海旭123', 100, 'E10ADC3949BA59ABBE56E057F20F883E', '202160522', '2019-09-07 17:07:15', 1, '123456');
+INSERT INTO `user_info` VALUES (12, '计算机161', '计算机院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '光银', 102, 'E10ADC3949BA59ABBE56E057F20F883E', '202160523', '2019-09-07 17:16:45', 1, '123456');
 INSERT INTO `user_info` VALUES (13, '计算机666', '666', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '666', 100, 'E10ADC3949BA59ABBE56E057F20F883E', '202160666', '2019-09-07 17:22:08', 1, '15189801203');
-INSERT INTO `user_info` VALUES (14, '数嵌161', '通信院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '伏海旭', 100, 'E10ADC3949BA59ABBE56E057F20F883E', '202160777', '2019-09-07 17:23:52', 1, '15189801203');
+INSERT INTO `user_info` VALUES (14, '数嵌161', '通信院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '海旭', 100, 'E10ADC3949BA59ABBE56E057F20F883E', '202160777', '2019-09-07 17:23:52', 1, '15189801203');
 INSERT INTO `user_info` VALUES (15, '数嵌161', '计算机院', 'http://47.102.128.138:8888/images/ceshi/avatar2.jpg', '测试588', 100, 'E10ADC3949BA59ABBE56E057F20F883E', '202160588', '2019-10-21 21:04:35', 1, '15189801203');
 INSERT INTO `user_info` VALUES (16, '数钱161', '计算机院', 'http://47.102.128.138:8888/images/ceshi/avatar3.jpg', '测试用户599', 100, 'E10ADC3949BA59ABBE56E057F20F883E', '202160599', '2019-10-21 21:07:15', 0, '15189801203');
 INSERT INTO `user_info` VALUES (17, '数嵌161', '计算机工程学院', 'http://47.102.128.138:8888/images/ceshi/avatar4.jpg', '周杰伦', 70, '25D55AD283AA400AF464C76D713C07AD', '202160512', '2019-11-04 16:24:00', 0, '15195893332');

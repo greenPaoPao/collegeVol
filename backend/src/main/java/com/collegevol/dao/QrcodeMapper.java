@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
  *  Mapper 接口
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-11-04
  */
 public interface QrcodeMapper extends BaseMapper<Qrcode> {

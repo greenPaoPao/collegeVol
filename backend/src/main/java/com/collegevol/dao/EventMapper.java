@@ -17,7 +17,7 @@ import java.util.List;
  * 志愿者活动表  Mapper 接口
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-07-20
  */
 public interface EventMapper extends BaseMapper<Event> {

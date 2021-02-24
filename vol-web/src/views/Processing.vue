@@ -65,35 +65,35 @@ export default {
         {
           department: '计算机工程学院',
           class: '数嵌161',
-          name: '王敏',
+          name: '王王',
           id: '202160511',
           score: 100
         },
         {
           department: '计算机工程学院',
           class: '数嵌161',
-          name: '王敏',
+          name: '王王',
           id: '202160511',
           score: 100
         },
         {
           department: '计算机工程学院',
           class: '数嵌161',
-          name: '王敏',
+          name: '王王',
           id: '202160511',
           score: 100
         },
         {
           department: '计算机工程学院',
           class: '数嵌161',
-          name: '王敏',
+          name: '王王',
           id: '202160511',
           score: 100
         },
         {
           department: '计算机工程学院',
           class: '数嵌161',
-          name: '王敏',
+          name: '王王',
           id: '202160511',
           score: 100
         }

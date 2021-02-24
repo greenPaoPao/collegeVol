@@ -12,7 +12,7 @@
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://127.0.0.1:3306/facedb?useSSL=false"
                         userId="root"
-                        password="fhx.1234" >
+                        password="mysql.1234" >
         </jdbcConnection>
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>

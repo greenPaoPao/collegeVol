@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 图片轮播图 首页展示的图片，展示优先级 服务类
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-09-10
  */
 public interface EventPictureSliderService extends IService<EventPictureSlider> {

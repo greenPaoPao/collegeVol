@@ -17,7 +17,7 @@ import java.util.Date;
  * 用户信息表
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-07-20
  */
 @Data

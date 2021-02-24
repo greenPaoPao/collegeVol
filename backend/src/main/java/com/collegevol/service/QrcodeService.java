@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  *  服务类
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-11-04
  */
 public interface QrcodeService extends IService<Qrcode> {

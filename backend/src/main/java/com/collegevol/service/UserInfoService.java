@@ -10,7 +10,7 @@ import org.springframework.dao.DataAccessException;
  * 用户信息表  服务类
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-07-20
  */
 public interface UserInfoService extends IService<UserInfo> {

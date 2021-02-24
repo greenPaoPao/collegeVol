@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 活动申请表  Mapper 接口
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-07-20
  */
 public interface EventApplyMapper extends BaseMapper<EventApply> {

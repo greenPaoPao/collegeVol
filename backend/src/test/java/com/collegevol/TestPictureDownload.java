@@ -29,9 +29,6 @@ public class TestPictureDownload {
 
     public static void main(String[] args) {
 
-        downloadPicture("http://47.102.128.138:8888/images/ceshi/avatar3.jpg",
-                "J:\\记录\\app\\project\\sunlord\\pdf\\新建文件夹\\9.2\\UI\\1.jpg");
-
         System.out.println("download end");
     }
 }

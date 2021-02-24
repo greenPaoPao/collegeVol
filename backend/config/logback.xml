@@ -126,20 +126,6 @@
     <logger name="java.sql.PreparedStatement" level="ERROR">
         <appender-ref ref="SQL"/>
     </logger>
-    <logger name="com.sunlord.common.core.utils.SqlLogUtils" level="DEBUG" addtivity="false">
-        <appender-ref ref="SQL"/>
-    </logger>
-    <logger name="com.sunlord.common.core.utils.HttpUtils" level="DEBUG" additivity="false">
-        <appender-ref ref="HTTPLOG"/>
-    </logger>
-
-    <logger name="com.sunlord.tms.task" level="DEBUG">
-        <appender-ref ref="TASKLOG"/>
-    </logger>
-
-    <logger name="com.sunlord.overdue.service.impl.ErpOrderServiceImpl" additivity="DEBUG">
-        <appender-ref ref="TASKLOG"/>
-    </logger>
 
     <root level="INFO">
         <appender-ref ref="APPLICATION"/>

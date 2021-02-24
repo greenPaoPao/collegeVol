@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 活动评价表  服务类
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-09-05
  */
 public interface EventCommentService extends IService<EventComment> {

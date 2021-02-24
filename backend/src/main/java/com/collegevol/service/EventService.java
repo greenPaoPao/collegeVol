@@ -9,7 +9,7 @@ import com.collegevol.vo.EventVo;
  * 志愿者活动表  服务类
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-07-20
  */
 public interface EventService extends IService<Event> {

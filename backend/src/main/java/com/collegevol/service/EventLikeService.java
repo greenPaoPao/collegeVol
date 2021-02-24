@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  *  服务类
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-09-05
  */
 public interface EventLikeService extends IService<EventLike> {

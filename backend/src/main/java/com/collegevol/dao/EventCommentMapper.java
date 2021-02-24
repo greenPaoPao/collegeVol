@@ -13,7 +13,7 @@ import java.util.List;
  * 活动评价表  Mapper 接口
  * </p>
  *
- * @author fhx
+ *
  * @since 2019-09-05
  */
 public interface EventCommentMapper extends BaseMapper<EventComment> {

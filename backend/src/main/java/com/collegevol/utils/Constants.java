@@ -35,17 +35,6 @@ public interface Constants {
     //utf8编码
     String ENCODING_UTF8 = "UTF-8";
 
-    //根租户ID
-    Long ROOT_TENANTID = 1L;
-
-    //根租户Code
-    String ROOT_TENANTCODE = "root_tenant";
-
-    //sunlord租户code
-    String SUNLORD_TENANTCODE= "100";
-
-    //sunlord租户id
-    Long SUNLORD_TENANT_ID= 100l;
 
     //http请求参数类型：url-form
     String HTTP_CONTENT_TYPE_FORM= "application/x-www-form-urlencoded";
