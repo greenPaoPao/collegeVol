@@ -7,7 +7,7 @@ axios.defaults.headers['Content-Type'] = 'application/json'
 export class Http {
   constructor (timeout = TIMEOUT) {
     this.Axios = axios.create({
-      baseURL: 'http://47.102.128.138:8888/',
+      baseURL: 'http://127.0.0.1:8888/',
       // baseURL: 'http://127.0.0.1:8888/',
       timeout: timeout
     })

@@ -26,7 +26,7 @@ import java.io.IOException;
 @Service
 public class QrcodeServiceImpl extends ServiceImpl<QrcodeMapper, Qrcode> implements QrcodeService {
 
-    private final static String PREFIX_KEY="http://47.102.128.138:5000/#/login?";
+    private final static String PREFIX_KEY="http://127.0.0.1:5000/#/login?";
 
     @Resource
     private QRCodeUserServiceImpl qrCodeUserService;

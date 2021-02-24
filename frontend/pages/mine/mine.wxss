@@ -1,6 +1,6 @@
 /* pages/mine/mine.wxss */
 .container{
-  background-image: url('http://47.102.128.138:8888/images/mine-bgc.jpg');
+  background-image: url('http://127.0.0.1:8888/images/mine-bgc.jpg');
   width: 100%;
   height: 100%;
   background-size: cover;

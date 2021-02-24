@@ -22,7 +22,7 @@ public class QRCodeUserServiceImpl implements QRCodeUserService {
 
     @Override
     public String generateCodeImg(String code) throws WriterException, IOException {
-        String qrCode="http://47.102.128.138:8888/images/qrcode/";
+        String qrCode="http://127.0.0.1:8888/images/qrcode/";
         String filePath= UUID.randomUUID().toString()+".jpg";
         qrCode+=filePath;
         filePath=IMAGE_PATH+filePath;
@@ -37,7 +37,7 @@ public class QRCodeUserServiceImpl implements QRCodeUserService {
     public static void main(String[] args) {
         QRCodeUserServiceImpl qrCodeService=new QRCodeUserServiceImpl();
         try {
-            qrCodeService.generateCodeImg("http://47.102.128.138:5000/#/login?userId=1");
+            qrCodeService.generateCodeImg("http://127.0.0.1:5000/#/login?userId=1");
         } catch (WriterException e) {
             e.printStackTrace();
         } catch (IOException e) {
