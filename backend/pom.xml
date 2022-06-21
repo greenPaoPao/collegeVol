@@ -24,7 +24,7 @@
         <spring.core.version>5.1.1.RELEASE</spring.core.version>
         <jsoup.version>1.11.3</jsoup.version>
         <jedis.version>2.9.0</jedis.version>
-        <mysql.version>8.0.16</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <commons.io.version>2.5</commons.io.version>
     </properties>
 
